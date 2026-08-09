@@ -1,0 +1,32 @@
+{
+  "name": "swift-chat-server",
+  "version": "1.0.0",
+  "description": "A end to end chatting application",
+  "keywords": [
+    "real_time",
+    "chat"
+  ],
+  "homepage": "https://github.com/Satyamdixit2802/Swift_Chat_Application#readme",
+  "bugs": {
+    "url": "https://github.com/Satyamdixit2802/Swift_Chat_Application/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satyamdixit2802/Swift_Chat_Application.git"
+  },
+  "license": "ISC",
+  "author": "Satyam Dixit",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node src/server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0",
+    "mongoose": "^9.9.1",
+    "socket.io": "^4.8.3"
+  }
+}
