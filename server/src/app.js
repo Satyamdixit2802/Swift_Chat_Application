@@ -15,18 +15,8 @@ app.use(express.json())
 app.use(express.urlencoded())
 
 
-app.use("/api/v1/messages", messageRoutes);
+app.use(["/api/messages", "/api/v1/messages"], messageRoutes);
 
-app.use(errorHandler)
-
-
-
-
-
-
-
-
-
-app.use(errorHandler)
+app.use(errorHandler);
 
 export default app

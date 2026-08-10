@@ -195,7 +195,6 @@ For production, update both `.env` files (or your hosting platform's environment
 - [x] Username-based dummy login
 - [x] Typing indicator
 - [x] Online user count
-- [ ] Message read/delivered status *(not implemented — out of scope for the time available)*
 - [x] Messages persisted in MongoDB
 - [x] Backend deployed (Render)
 
