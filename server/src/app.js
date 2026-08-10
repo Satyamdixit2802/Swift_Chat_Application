@@ -3,7 +3,7 @@ import express from 'express'
 import cors from 'cors'
 
 
-import errorHandler from './middleware/error.middleware';
+import errorHandler from './middleware/error.middleware.js';
 import messageRoutes from './routes/message.route.js'
 
 const app = express()
@@ -17,6 +17,7 @@ app.use(express.urlencoded())
 
 app.use("/api/v1/messages", messageRoutes);
 
+app.use(errorHandler)
 
 
 
